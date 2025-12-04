@@ -1,7 +1,7 @@
 from airflow.sdk import dag, task
 
 @dag(
-    description='Run it and get your gift..',
+    description='Run it and get your gift.',
     schedule=None,
     tags=['surprise', 'gift'],
 )
